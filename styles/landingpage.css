@@ -318,3 +318,51 @@ button.sign-up {
 button.sign-up:hover {
   background-color: #0056b3;
 }
+/*final*/
+footer {
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.all-end {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.LOGO {
+  color: #007BFF; 
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.below p {
+  color: #444;
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.footer-links .h4 {
+  font-size: 16px;
+  color: #8987A1;
+  cursor: pointer;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-links .h4:hover {
+  color: #007BFF;
+  text-decoration: underline;
+}
